@@ -42,6 +42,7 @@ body{
 }
 
 .darkblue{
+    width: 100%;
     height: 600px;
     position: relative;
     margin-top: 150px;

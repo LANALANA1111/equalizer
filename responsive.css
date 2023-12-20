@@ -15,7 +15,7 @@
     }
 
     .mdl{
-        padding: 39px;
+        align-self: center;
     }
 
     .first-img{
@@ -54,8 +54,8 @@
     }
 
     .mdl{
-        padding-left: 165px;
-        padding-right: 165px;
+        width: 1200px;
+        align-self: center;
     }
 
     .orange{
