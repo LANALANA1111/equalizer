@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-image: url(./images/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.header >img{
+    padding: 40px 25px;
+}
+
+.header >h1{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.455px;
+    padding: 40px 25px;
+}
+
+.header >p{
+    color: #191826;
+    position: relative;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 25px;
+}
+
+.responsive_img{
+    display: none;
+}
+
+.darkblue{
+    height: 600px;
+    position: relative;
+    margin-top: 150px;
+    border-radius: 12px;
+    background: #191826;
+}
+
+.first-img{
+    position: absolute;
+    width: 280px; 
+    height: 420px; 
+    padding-left: 70px;
+}
+
+.scnd-img{
+    position: relative;
+    bottom: 107px;
+    margin-left: 100px
+}
+
+.orange{
+    height: 595px;
+    border-radius: 12px;
+    background: #FA7453;
+    position: relative;
+    bottom: 107px;
+}
+
+.orange >h2{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 55px 45px;
+}
+
+.orange >p{
+    width: 300px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 45px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding: 35px 40px;
+}
+
+.price >h1{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.price >p{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    padding-left: 10px;
+}
+
+.download_buttons{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+}
+
+.ios{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    border: none;
+    background: #191826;
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.ios >img{
+    padding-right: 10px;
+}
+
+.android{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: #FCFAF9;
+    border: none;
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.footer_img{
+    padding-left: 25px;
+}
+
+.footer >p{
+    width: 302px;
+    color: #191826;
+    padding: 32px 25px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+span{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+} 
+
+.logos{
+    padding: 55px 25px;
+}
+
+.main{
+    width: 100%;
+}
